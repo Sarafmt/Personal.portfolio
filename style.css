@@ -84,19 +84,32 @@ header{
 }
 
 .profile-picture{
-    height: 100&;
-    width: 90%;
+    height: 250px;
+    width: 250px;
     /* border: 1px white */
 }
 
 .header-container{
-    display: grid;
+    display: grid;;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-column-start: 2;
+    grid-column-end: 2;
     justify-content: space-between;
 }
 
 .header.right{
+    grid-column-start: 2;
+    grid-column-end: 2;
     text-align: center;
     margin: auto;
+}
+
+.header-action-contactandcv{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: 40px;
+    display: grid;
+   justify-content: left;
 }
 
