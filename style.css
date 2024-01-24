@@ -141,8 +141,9 @@ header{
 }
 
 .header-right p{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
+    margin: auto;
     color: white;
 }
 
@@ -159,3 +160,6 @@ header{
     margin: 15px auto;
     color: white;
 }
+
+/* about stylings section starts here */
+
