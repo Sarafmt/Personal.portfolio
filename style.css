@@ -101,6 +101,7 @@ header{
 .header.right{
     grid-column-start: 2;
     grid-column-end: 2;
+    grid-auto-rows: auto;
     text-align: center;
     margin: auto;
 }
@@ -108,8 +109,56 @@ header{
 .header-action-contactandcv{
     grid-column-start: 2;
     grid-column-end: 2;
+    grid-auto-rows: auto;
     margin-top: 40px;
-    display: grid;
+    display: flex;
+    gap: 25px;
    justify-content: left;
 }
 
+.btn{
+    border: 1px solid white;
+    width: 180px;
+    padding: 1em 2em;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-dark{
+    background-color: rgb(74, 77, 74);
+    color: white;
+}
+
+.header-social{
+    height: 60px;
+    width: 60px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-auto-rows: auto;
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: left;
+}
+
+.header-right p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.header-right h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px auto;
+    color: white;
+}
+
+.header-right h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 15px auto;
+    color: white;
+}
