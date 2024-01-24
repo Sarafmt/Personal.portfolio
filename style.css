@@ -74,3 +74,20 @@ nav{
     color: lightpink;
 }
 
+/* header styling starts here */
+
+header{
+    padding-top: 200px;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.header.right{
+    text-align: center;
+    margin: auto;
+}
+
