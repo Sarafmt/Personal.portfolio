@@ -3,6 +3,9 @@
     src: url(fonts/Poppins-Regular.ttf);
 }
 
+body {
+    background-color: rgb(30, 31, 31);
+}
 
 *{
     margin: 0;
@@ -78,6 +81,12 @@ nav{
 
 header{
     padding-top: 200px;
+}
+
+.profile-picture{
+    height: 100&;
+    width: 90%;
+    /* border: 1px white */
 }
 
 .header-container{
