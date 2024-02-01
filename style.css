@@ -25,6 +25,21 @@ body {
     width: 95%;
 }
 
+.global-title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+    color: white;
+}
+
+.globaltitle-h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    margin-top: 15px;
+    color: white;
+}
+
 /*navbar styling starts here*/
 nav{
     height: 85px;
